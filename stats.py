@@ -17,8 +17,7 @@ def char_count(content):
 
 def sort_on(items):
     return items["num"]
-    sorted=[]
-    for ch in items:
-        sorted.append({"name": ch, "num":items[ch]})  
-    sorted.sort(reverse=True, key=sort_on)
-    print(sorted)
+
+# def formating(items):
+#     for i in items:
+#         print(f"{i}:{items[i]}\n")
